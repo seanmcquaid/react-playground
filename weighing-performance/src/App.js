@@ -1,3 +1,4 @@
+import BatchingSetState from 'containers/dataFetching/BatchingSetState/index';
 import CallbackReducerExample from 'containers/forms/CallbackReducerExample/index';
 import CallbackStateExample from 'containers/forms/CallbackStateExample/index';
 import FinalForm from 'containers/forms/FinalForm/index';
@@ -12,7 +13,8 @@ const App = () => (
     {/* <CallbackStateExample /> */}
     {/* <CallbackReducerExample /> */}
     {/* <MemoExample /> */}
-    <FinalForm />
+    {/* <FinalForm /> */}
+    <BatchingSetState />
   </>
 );
 
