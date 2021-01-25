@@ -12,7 +12,7 @@ const StyledButton = styled.button``;
 Button.propTypes = {
   onClick: PropTypes.func,
   type: PropTypes.string.isRequired,
-  children: PropTypes.element.isRequired,
+  children: PropTypes.string.isRequired,
 };
 
 export default Button;
