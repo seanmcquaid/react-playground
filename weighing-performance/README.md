@@ -26,3 +26,7 @@ Total time : 19.3ms
 - Callback State Example
 
 Total time : 15.4ms
+
+- Callback Reducer Example
+
+Total time : 23.6ms
