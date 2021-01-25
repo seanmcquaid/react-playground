@@ -34,3 +34,7 @@ Total time : 23.6ms
 - Memo Example
 
 Total time : 9.1
+
+- Final Form
+
+Total time : 15.4ms
