@@ -17,4 +17,8 @@ Steps for Testing Times :
 
 - Use State Example
 
-Total time : 12.8ms
+Total time : 22.5ms
+
+- Use Reducer Example
+
+Total time : 22.5ms

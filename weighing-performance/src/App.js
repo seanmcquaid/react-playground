@@ -1,8 +1,10 @@
+import UseReducerExample from 'containers/forms/UseReducerExample/index';
 import UseStateExample from 'containers/forms/UseStateExample';
 
 const App = () => (
   <>
-    <UseStateExample />
+    {/* <UseStateExample /> */}
+    <UseReducerExample />
   </>
 );
 
