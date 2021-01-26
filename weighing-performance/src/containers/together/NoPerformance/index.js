@@ -1,16 +1,14 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useState } from 'react';
 import axios from '../../../node_modules/axios/index';
 
-const Final = () => {
+const NoPerformance = () => {
   const [state, setState] = useState({
-    description: '',
-    fullTime: false,
-    location: '',
+    response: [],
+    isLoading: false,
+    error: null,
   });
 
-  const onChange = useCallback(() => {}, []);
-
-  useEffect(() => {
+  const onSubmit = ({ description, fullTime, location }) => {
     axios
       .get(
         `http://localhost:8080/https://jobs.github.com/positions.json?description=python&full_time=true&location=sf`
@@ -18,9 +16,9 @@ const Final = () => {
       .then(({ data }) => {
         console.log(data);
       });
-  }, []);
+  };
 
   return <div></div>;
 };
 
-export default Final;
+export default NoPerformance;
