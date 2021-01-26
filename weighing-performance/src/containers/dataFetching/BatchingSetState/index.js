@@ -24,7 +24,7 @@ const BatchingSetState = () => {
 
   return (
     <ul>
-      <li>isLoading : {isLoading}</li>
+      <li>isLoading : {isLoading ? 'true' : 'false'}</li>
       <li>Error : {error} </li>
       {data.map((jobInfo) => (
         <li key={jobInfo.id}>{JSON.stringify(jobInfo)}</li>

@@ -38,3 +38,17 @@ Total time : 9.1
 - Final Form
 
 Total time : 15.4ms
+
+## Data Fetching
+
+Batching Set State
+
+Total time : 5.4 ms
+
+Set State with Object
+
+Total time : 5.6 ms
+
+Use Reducer Example
+
+Total time :
