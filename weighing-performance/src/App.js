@@ -1,5 +1,6 @@
 import BatchingSetState from 'containers/dataFetching/BatchingSetState/index';
 import SetStateObject from 'containers/dataFetching/SetStateObject/index';
+import UseReducerDataExample from 'containers/dataFetching/UseReducerDataExample/index';
 import CallbackReducerExample from 'containers/forms/CallbackReducerExample/index';
 import CallbackStateExample from 'containers/forms/CallbackStateExample/index';
 import FinalForm from 'containers/forms/FinalForm/index';
@@ -16,7 +17,8 @@ const App = () => (
     {/* <MemoExample /> */}
     {/* <FinalForm /> */}
     {/* <BatchingSetState /> */}
-    <SetStateObject />
+    {/* <SetStateObject /> */}
+    <UseReducerDataExample />
   </>
 );
 

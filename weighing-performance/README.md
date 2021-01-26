@@ -51,4 +51,4 @@ Total time : 5.6 ms
 
 Use Reducer Example
 
-Total time :
+Total time : 6.2ms
