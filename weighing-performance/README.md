@@ -18,41 +18,51 @@ Steps for Testing Times :
 - Use State Example
 
 Total time : 22.5ms
+Highest Amount of Renders for a Component :
 
 - Use Reducer Example
 
 Total time : 19.3ms
+Highest Amount of Renders for a Component :
 
 - Callback State Example
 
 Total time : 15.4ms
+Highest Amount of Renders for a Component :
 
 - Callback Reducer Example
 
 Total time : 23.6ms
+Highest Amount of Renders for a Component :
 
 - Memo Example
 
 Total time : 9.1
+Highest Amount of Renders for a Component :
 
 - Final Form
 
 Total time : 15.4ms
+Highest Amount of Renders for a Component :
 
 ## Data Fetching
 
-Batching Set State
+- Batching Set State
 
 Total time : 5.4 ms
+Highest Amount of Renders for a Component :
 
-Set State with Object
+- Set State with Object
 
 Total time : 5.6 ms
+Highest Amount of Renders for a Component :
 
-Use Reducer Example
+- Use Reducer Example
 
 Total time : 6.2ms
+Highest Amount of Renders for a Component :
 
-Final
+- Final
 
 Total time :
+Highest Amount of Renders for a Component :
