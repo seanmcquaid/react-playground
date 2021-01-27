@@ -8,6 +8,7 @@ import MemoExample from 'containers/forms/MemoExample/index';
 import UseReducerExample from 'containers/forms/UseReducerExample/index';
 import UseStateExample from 'containers/forms/UseStateExample';
 import NoPerformance from 'containers/together/NoPerformance/index';
+import Optimized from 'containers/together/Optimized/index';
 
 const App = () => (
   <>
@@ -21,6 +22,7 @@ const App = () => (
     {/* <SetStateObject /> */}
     {/* <UseReducerDataExample /> */}
     <NoPerformance />
+    {/* <Optimized /> */}
   </>
 );
 
